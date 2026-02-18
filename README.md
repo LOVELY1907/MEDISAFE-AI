@@ -36,7 +36,8 @@ MediSafe AI is a smart medication management system that:
 
 Below is the high-level architecture of the system:
 
-![System Architecture](./images/system-architecture.png)
+![System Architecture](<img width="3170" height="1346" alt="architecture " src="https://github.com/user-attachments/assets/39bc7fae-3a59-4b18-b6c5-868395615a5c" />
+)
 
 ---
 
@@ -44,7 +45,8 @@ Below is the high-level architecture of the system:
 
 The system is built using the following technologies:
 
-![Technology Stack](./images/tech-stack.png)
+![Technology Stack](<img width="1113" height="537" alt="TECHSTACK" src="https://github.com/user-attachments/assets/ecd96081-6479-41a2-a3f4-cde970f2ff1e" />
+)
 
 ### 🔹 Frontend
 - React.js
@@ -92,6 +94,4 @@ The system is built using the following technologies:
 5. Risk percentage is calculated
 6. Results are displayed on dashboard
 
----
-
-## 🗂️ Project Structure
+----
