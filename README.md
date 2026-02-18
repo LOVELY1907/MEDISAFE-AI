@@ -1,97 +1,70 @@
-# MEDISAFE-AI
-MEDICATION INTAKE DOSAGE RISK PREDICTION SYSTEM
-# 💊 MediSafe AI  
-### Medication Intake & Dosage Risk Prediction System  
+# Getting Started with Create React App
 
----
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 📌 Problem Statement  
+## Available Scripts
 
-Medication misuse, wrong dosage, and dangerous drug interactions are major causes of health complications worldwide.  
-Many patients forget their medications, mix incompatible drugs, or take incorrect dosages without understanding the risks.
+In the project directory, you can run:
 
-There is a need for an intelligent system that:
-- Identifies tablets
-- Analyzes drug purposes
-- Predicts interaction risks
-- Provides AI-based explanations
-- Helps users manage medication safely
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🎯 Project Objective  
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-MediSafe AI is a smart medication management system that:
+### `npm test`
 
-- Allows users to add tablets
-- Performs tablet recognition
-- Predicts dosage and interaction risks
-- Provides AI-based medical insights
-- Tracks medication history
-- Shows live risk percentage
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## 🏗️ System Architecture  
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Below is the high-level architecture of the system:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![System Architecture](<img width="3170" height="1346" alt="architecture " src="https://github.com/user-attachments/assets/39bc7fae-3a59-4b18-b6c5-868395615a5c" />
-)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## 🧠 Technology Stack  
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-The system is built using the following technologies:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![Technology Stack](<img width="1113" height="537" alt="TECHSTACK" src="https://github.com/user-attachments/assets/ecd96081-6479-41a2-a3f4-cde970f2ff1e" />
-)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### 🔹 Frontend
-- React.js
-- HTML
-- CSS
-- Axios
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### 🔹 Backend
-- Node.js
-- Express.js
-- JWT Authentication
-- bcrypt
+## Learn More
 
-### 🔹 Database
-- PostgreSQL
-- Sequelize ORM
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### 🔹 AI & ML Layer
-- Rule-based Risk Engine
-- Gemini / AI API Integration
-- Drug Interaction Logic
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### 🔹 External APIs
-- Drug data APIs (OpenFDA / DrugBank style integration)
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## ⚙️ Features  
+### Analyzing the Bundle Size
 
-- 👤 User Registration & Login (JWT Auth)
-- 💊 Add & Manage Tablets
-- 🧾 Tablet Recognition Module
-- ⚠️ Risk Prediction (Dosage + Interaction)
-- 📊 Live Risk Meter Visualization
-- 🤖 AI Assistant for Drug Explanation
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
----
+### Making a Progressive Web App
 
-## 🔄 System Flow  
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-1. User registers/logs in
-2. User adds tablet name or image
-3. System analyzes tablet details
-4. AI processes risk factors
-5. Risk percentage is calculated
-6. Results are displayed on dashboard
+### Advanced Configuration
 
-----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
