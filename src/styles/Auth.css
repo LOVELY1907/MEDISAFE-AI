@@ -1,0 +1,114 @@
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: radial-gradient(circle at top, #0f2027, #1b2a49, #000814);
+  font-family: "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
+/* Neon glowing card */
+.auth-card {
+  width: 430px;
+  padding: 45px;
+  border-radius: 20px;
+
+  background: rgba(20, 25, 45, 0.85);
+  backdrop-filter: blur(15px);
+
+  box-shadow:
+    0 0 10px #00f0ff,
+    0 0 25px #0077ff,
+    0 0 60px rgba(0, 119, 255, 0.4);
+
+  text-align: center;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+/* Title */
+.auth-card h1 {
+  font-size: 30px;
+  color: #00f0ff;
+  text-shadow: 0 0 10px #00f0ff;
+  margin-bottom: 10px;
+}
+
+.auth-card p {
+  color: #a8c5ff;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+/* Inputs */
+.auth-card input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+
+  border-radius: 10px;
+  border: 1px solid #00f0ff;
+  background: rgba(0, 0, 0, 0.4);
+
+  color: white;
+  font-size: 14px;
+
+  transition: 0.3s;
+}
+
+.auth-card input::placeholder {
+  color: #88cfff;
+}
+
+.auth-card input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #00f0ff;
+  border-color: #00f0ff;
+}
+
+/* Neon Button */
+.auth-card button {
+  width: 100%;
+  padding: 14px;
+
+  background: linear-gradient(90deg, #00f0ff, #0077ff);
+  color: black;
+
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-card button:hover {
+  box-shadow: 0 0 20px #00f0ff, 0 0 40px #0077ff;
+  transform: translateY(-2px);
+}
+
+/* Switch text */
+.switch-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #a8c5ff;
+}
+
+.switch-text a {
+  color: #00f0ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.switch-text a:hover {
+  text-shadow: 0 0 10px #00f0ff;
+}
+
+/* Error */
+.error {
+  color: #ff4d6d;
+  font-size: 13px;
+  margin-bottom: 10px;
+}

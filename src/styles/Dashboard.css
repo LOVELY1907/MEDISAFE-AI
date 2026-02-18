@@ -1,0 +1,177 @@
+.dashboard-wrapper {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  margin: 6px 0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.sidebar li.active {
+  background: #1e293b;
+  box-shadow: 0 0 12px cyan;
+}
+
+.profile-mini {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: cyan;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.live-risk {
+  margin-top: 20px;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background: #f1f5f9;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tablet-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+
+/* AI ASSISTANT */
+.assistant-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: cyan;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.assistant-box {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.assistant-big {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+/* PROFILE */
+.profile-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* ===== CLEAN DYNAMIC SPEEDOMETER ===== */
+
+.speedometer {
+  width: 320px;
+  height: 160px;
+  margin: 40px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 320px 320px 0 0;
+  background: conic-gradient(
+    from 180deg,
+    #004d00 0%,
+    #00aa00 25%,
+    #ffff00 26%,
+    #ffcc00 55%,
+    #ff8800 56%,
+    #ff5500 75%,
+    #cc0000 76%,
+    #800000 100%
+  );
+}
+
+/* Inner white cutout (makes it thin) */
+.speedometer::after {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  background: #f1f5f9;
+  border-radius: 50%;
+  bottom: -130px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Needle */
+.needle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  height: 120px;
+  background: black;
+  transform-origin: bottom center;
+  transition: transform 0.4s ease;
+  z-index: 10;
+}
+.gauge-svg {
+  width: 300px;
+  height: 180px;
+}
